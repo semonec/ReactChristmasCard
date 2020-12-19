@@ -1,4 +1,51 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+body {
+  background-color: red;
+}
+
+.card-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: ivory;
+  width: 70%;
+  height: 80vh;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.tree-wrapper {
+  background-color: navy;
+  width: initial;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.tree-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.title {
+  color: gold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  border-top: 1px solid black;
+  margin-left: -25px;
+  margin-right: -25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
